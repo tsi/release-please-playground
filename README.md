@@ -11,4 +11,4 @@ Playing with [Release Please GitHub Action](https://github.com/marketplace/actio
 
 ## Setup
 
-Release Please workflow is configured in [.github/workflows/release-please.yml](https://github.com/digrec/release-please-playground/blob/main/release-please.yml) file.
+Release Please workflow is configured in [.github/workflows/release-please.yml](https://github.com/digrec/release-please-playground/blob/main/.github/workflows/release-please.yml) file.

@@ -1,5 +1,7 @@
 # Release Please Playground
 
+Version 0.0.0 <!-- x-release-please-version -->
+
 Playing with [Release Please GitHub Action](https://github.com/marketplace/actions/release-please-action).
 
 ## Project Goals
@@ -11,4 +13,16 @@ Playing with [Release Please GitHub Action](https://github.com/marketplace/actio
 
 ## Setup
 
-Release Please workflow is configured in [.github/workflows/release-please.yml](https://github.com/digrec/release-please-playground/blob/main/.github/workflows/release-please.yml) file.
+Release Please workflow is configured
+in [.github/workflows/release-please.yml](https://github.com/digrec/release-please-playground/blob/main/.github/workflows/release-please.yml)
+file.
+
+### Update Versions
+
+To update versions in arbitrary files you need to use `x-release-please-version` annotation in form of a line comment
+on the line where the version replacement needs to happen.
+
+The arbitrary files that need version replacement must be listed using `extra-files` option in the workflow
+configuration [file](.github/workflows/release-please.yml).
+
+See [here](https://github.com/marketplace/actions/release-please-action#adding-additional-files) for more.

@@ -24,3 +24,5 @@ jobs:
         with:
           release-type: go
           package-name: release-please-action
+          extra-files: |
+            README.md

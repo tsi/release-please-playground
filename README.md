@@ -1,6 +1,6 @@
 # Release Please Playground
 
-Version 0.0.0 <!-- x-release-please-version -->
+![version](https://img.shields.io/badge/version-0.0.0-blue) <!-- x-release-please-version -->
 
 Playing with [Release Please GitHub Action](https://github.com/marketplace/actions/release-please-action).
 

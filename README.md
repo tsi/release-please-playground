@@ -9,7 +9,8 @@ Playing with [Release Please GitHub Action](https://github.com/marketplace/actio
 1. Learning Release Please GitHub Action on a test repository.
 2. Release PRs authored automatically by Release Please.
 3. Project CHANGELOG.md generated from Conventional Commits.
-4. Project GitHub Release with Semantic Versioning and version Git tags.
+4. Automatically updated release versions in arbitrary files.
+5. Project GitHub Release with Semantic Versioning and version Git tags.
 
 ## Setup
 

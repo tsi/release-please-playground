@@ -18,6 +18,13 @@ Release Please workflow is configured
 in [.github/workflows/release-please.yml](https://github.com/digrec/release-please-playground/blob/main/.github/workflows/release-please.yml)
 file.
 
+### Release PR
+
+Release Please maintains Release PRs for you on each push to main branch. It's up to you when to tag a release by simply
+merging the release PR. Later, when you push again to the main branch, new release PR will be automatically created.
+
+<img src="./release-pr.png" width="600">
+
 ### Update Versions
 
 To update versions in arbitrary files you need to use `x-release-please-version` annotation in form of a line comment

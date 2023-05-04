@@ -21,9 +21,18 @@ file.
 ### Release PR
 
 Release Please maintains Release PRs for you on each push to main branch. It's up to you when to tag a release by simply
-merging the release PR. Later, when you push again to the main branch, new release PR will be automatically created.
+merging the release PR.
+
+Later, when you push again to the main branch, new release PR will be automatically created.
 
 <img src="./release-pr.png" width="600">
+
+### GitHub Release
+
+Once a release PR is merged, Release Please will tag the new release commit and create a corresponding GitHub Release
+based on the tag.
+
+<img src="./release.png" width="600">
 
 ### Update Versions
 

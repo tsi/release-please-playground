@@ -45,7 +45,7 @@ configuration [release-please.yml](.github/workflows/release-please.yml) file.
 You can see Release Please in action in this [PR-#1](https://github.com/digrec/release-please-playground/pull/1/files),
 or read [here](https://github.com/marketplace/actions/release-please-action#adding-additional-files) for more.
 
-#### Android App Versions
+#### Android App Version
 
 My main goal here is to use Release Please to update `versionCode` and `versionName` of an Android application.
 See [build.gradle](./build.gradle) on how to use Release Please annotations, like `x-release-please-major`,

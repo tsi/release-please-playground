@@ -5,7 +5,7 @@ plugins {
 
 // Version information (updated by Release Please)
 def versionMajor = 1 //x-release-please-major
-def versionMinor = 0 //x-release-please-minor
+def versionMinor = 1 //x-release-please-minor
 def versionPatch = 0 //x-release-please-patch
 
 android {

@@ -1,4 +1,4 @@
-# Release Please Playground
+_# Release Please Playground
 
 ![version](https://img.shields.io/static/v1?label=version&message=1.0.0&color=blue) <!-- x-release-please-version -->
 
@@ -36,10 +36,20 @@ based on the tag.
 
 ### Update Versions
 
-To update versions in arbitrary files you need to use `x-release-please-version` annotation in form of a line comment
+To update versions in arbitrary files, you can use `x-release-please-version` annotation in the form of a line comment
 on the line where the version replacement needs to happen.
 
 The arbitrary files that need version replacement must be listed using `extra-files` option in the workflow
-configuration [file](.github/workflows/release-please.yml).
+configuration [release-please.yml](.github/workflows/release-please.yml) file.
 
 See [here](https://github.com/marketplace/actions/release-please-action#adding-additional-files) for more.
+
+#### Android App Versions
+
+My main goal here is to use Release Please to update `versionCode` and `versionName` of an Android application. See
+lines 7-9 in [build.gradle](./build.gradle) on how to use Release Please annotations, like `x-release-please-major`,
+to update you app's version name and code.
+
+The approach for generating version code from version name, I borrowed from
+this [Quick Tip: Auto-generate your versionCode](https://proandroiddev.com/quick-tip-auto-generate-your-versioncode-614629f7d3bd)
+blog post.

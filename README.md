@@ -46,8 +46,8 @@ See [here](https://github.com/marketplace/actions/release-please-action#adding-a
 
 #### Android App Versions
 
-My main goal here is to use Release Please to update `versionCode` and `versionName` of an Android application. See
-lines 7-9 in [build.gradle](./build.gradle) on how to use Release Please annotations, like `x-release-please-major`,
+My main goal here is to use Release Please to update `versionCode` and `versionName` of an Android application.
+See [build.gradle](./build.gradle) on how to use Release Please annotations, like `x-release-please-major`,
 to update you app's version name and code.
 
 The approach for generating version code from version name, I borrowed from

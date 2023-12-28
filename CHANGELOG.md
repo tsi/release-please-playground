@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.0.0 (2023-12-28)
+
+
+### Features
+
+* **docs:** show version as a badge in README.md ([cd902b1](https://github.com/tsi/release-please-playground/commit/cd902b1204cff0e8a0bb045aeeaf16d0ef5f7da1))
+* **docs:** update version in README.md using x-release-please-version annotation ([0c9a639](https://github.com/tsi/release-please-playground/commit/0c9a6391780a186b0ac0e84c43069de6b65d7941))
+* update Android app version code and name using Release Please ([be1ba32](https://github.com/tsi/release-please-playground/commit/be1ba321cdf39a9a594c689390fd4096f7914295))
+
+
+### Bug Fixes
+
+* **docs:** fix release-please.yml link in README.md ([c3e5b93](https://github.com/tsi/release-please-playground/commit/c3e5b935f1898b6d03b00b2af84a176d6c84d55f))
+* **docs:** fix version badge URL in README.md ([8ff9f11](https://github.com/tsi/release-please-playground/commit/8ff9f119672342dd7bd0a426662535caaca9dc72))
+* **readme:** remove line number to prevent replacement by Release Please ([2c0defd](https://github.com/tsi/release-please-playground/commit/2c0defd90172c095ade8e8e2bbe3bcf123861ae4))
+* test ([ca753a7](https://github.com/tsi/release-please-playground/commit/ca753a72069dde6e9a47fc192bb3164284cb3981))
+* test ([e897c72](https://github.com/tsi/release-please-playground/commit/e897c727f096ad17530a0538b46d33250391fdc9))
+
 ## [1.1.0](https://github.com/digrec/release-please-playground/compare/v1.0.0...v1.1.0) (2023-05-05)
 
 

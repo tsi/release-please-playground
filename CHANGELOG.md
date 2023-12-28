@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/tsi/release-please-playground/compare/v1.0.0...v1.0.1) (2023-12-28)
+
+
+### Bug Fixes
+
+* test ([9b956cb](https://github.com/tsi/release-please-playground/commit/9b956cb46b3ac02336a89f71a832204eb13de896))
+
 ## 1.0.0 (2023-12-28)
 
 
